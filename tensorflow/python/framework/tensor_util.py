@@ -1028,7 +1028,7 @@ def constant_value_as_shape(tensor):  # pylint: disable=invalid-name
 def is_tf_type(x):  # pylint: disable=invalid-name
   """Checks whether `x` is a TF-native type that can be passed to many TF ops.
 
-  Use `is_tensor` to differentiate types that can ingested by TensorFlow ops
+  Use `is_tensor` to differentiate types that can be ingested by TensorFlow ops
   without any conversion (e.g., `tf.Tensor`, `tf.SparseTensor`, and
   `tf.RaggedTensor`) from types that need to be converted into tensors before
   they are ingested (e.g., numpy `ndarray` and Python scalars).
